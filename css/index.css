@@ -86,7 +86,7 @@ nav{
 }
 
 /*Helper Classes*/
-.bgimage{
+.index-bgimg{
     background-size:cover;
     background-repeat: no-repeat;
     display:flex;
@@ -96,12 +96,66 @@ nav{
     background-image:url('../img/jumbo.jpg');
     background-position:center;
 }
+
+/* about.html section */
+.about-bgimg{
+    background-size:cover;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: flex-end;
+    height: 20vh;
+    margin-top: 3%;
+    background-image:url('../img/jumbo-about.png');
+    background-position:center;
+}
+
+.about-middle{
+display: flex;
+flex-flow: row wrap;
+justify-content:space-evenly;
+border-top: 1px dashed black;
+margin-top: 3%;
+padding-top: 3%;
+}
+.about-container{
+    width: 50%;
+    padding: 1%;
+    justify-content: center;
+    
+}
+.about-img{
+    display: flex;
+    justify-content: center;
+}
+.about-txt{
+    margin: 3%;
+    border-bottom: 1px dashed black;
+}
+
+.about-btn{
+    width: 35%;
+    border-radius: .7rem;
+    border: 2px solid black;
+    padding: .6rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+}
+
+.about-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.about-bottom{
+    margin: 4% 3%;
+}
  .links{
     display:flex;
     justify-content: space-around;
     align-items: flex-end;
     flex-grow: 1;
-    /* align-items: center; */
 }
 
 .container {
