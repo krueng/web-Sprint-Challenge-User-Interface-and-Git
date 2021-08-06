@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,6 +65,97 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+/*Header*/
+header {
+display: flex;
+flex-direction: column;
+margin: 3% auto;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav{
+     display: flex;
+     flex-grow: 1;
+     justify-content:space-between;
+}
+
+/*Helper Classes*/
+.index-bgimg{
+    background-size:cover;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: flex-end;
+    height: 20vh;
+    margin-top: 3%;
+    background-image:url('../img/jumbo.jpg');
+    background-position:center;
+}
+
+/* about.html section */
+.about-bgimg{
+    background-size:cover;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: flex-end;
+    height: 20vh;
+    margin-top: 3%;
+    background-image:url('../img/jumbo-about.png');
+    background-position:center;
+}
+
+.about-middle{
+display: flex;
+flex-flow: row wrap;
+justify-content:space-evenly;
+border-top: 1px dashed black;
+margin-top: 3%;
+padding-top: 3%;
+}
+.about-container{
+    width: 50%;
+    padding: 1%;
+    justify-content: center;
+    
+}
+.about-img{
+    display: flex;
+    justify-content: center;
+}
+.about-txt{
+    margin: 3%;
+    border-bottom: 1px dashed black;
+}
+
+.about-btn{
+    width: 35%;
+    border-radius: .7rem;
+    border: 2px solid black;
+    padding: .6rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+}
+
+.about-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.about-bottom{
+    margin: 4% 3%;
+}
+ .links{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-grow: 1;
 }
 
 .container {
@@ -124,6 +216,37 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.middle-content .boxes .box1{ 
+    background: teal;
+}
+.middle-content .boxes .box2{ 
+    background: gold;
+}
+.middle-content .boxes .box3{ 
+    background: cadetblue;
+}
+.middle-content .boxes .box4{ 
+    background: coral;
+}
+.middle-content .boxes .box5{ 
+    background: crimson;
+}
+.middle-content .boxes .box6{ 
+    background: forestgreen;
+}
+.middle-content .boxes .box7{ 
+    background: darkorchid;
+}
+.middle-content .boxes .box8{ 
+    background: hotpink;
+}
+.middle-content .boxes .box9{ 
+    background: indigo;
+}
+.middle-content .boxes .box10{
+     background: dodgerblue;
 }
 
 footer {
